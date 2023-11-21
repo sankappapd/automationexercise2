@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Class2.TestCase12_AddProductsIn_Cart">
+        <methods>
+          <include name="testproduct2quantityVisibility"/>
+          <include name="testname2Visibility"/>
+          <include name="testproduct2totalpriceVisibility"/>
+          <include name="testproduct1rateVisibility"/>
+          <include name="testproducs1quantityVisibility"/>
+          <include name="productselect"/>
+          <include name="testproduct2rateVisibility"/>
+          <include name="tearDown"/>
+          <include name="productaddtocart"/>
+          <include name="testHomePageVisibility"/>
+          <include name="setUp"/>
+          <include name="testnameVisibility"/>
+          <include name="testproduct1totalpriceVisibility"/>
+        </methods>
+      </class> <!-- Class2.TestCase12_AddProductsIn_Cart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
